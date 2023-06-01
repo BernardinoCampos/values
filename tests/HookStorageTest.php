@@ -1,20 +1,20 @@
 <?php
-namespace Formapro\Values\Tests;
+namespace BernardinoCampos\Values\Tests;
 
-use function Formapro\Values\add_object;
-use function Formapro\Values\add_value;
-use function Formapro\Values\build_object;
-use function Formapro\Values\build_object_ref;
-use function Formapro\Values\get_object;
-use function Formapro\Values\get_value;
-use Formapro\Values\HooksEnum;
-use Formapro\Values\HookStorage;
-use function Formapro\Values\set_object;
-use function Formapro\Values\set_objects;
-use function Formapro\Values\set_value;
-use function Formapro\Values\set_values;
-use Formapro\Values\Tests\Model\EmptyObject;
-use Formapro\Values\Tests\Model\SubObject;
+use function BernardinoCampos\Values\add_object;
+use function BernardinoCampos\Values\add_value;
+use function BernardinoCampos\Values\build_object;
+use function BernardinoCampos\Values\build_object_ref;
+use function BernardinoCampos\Values\get_object;
+use function BernardinoCampos\Values\get_value;
+use BernardinoCampos\Values\HooksEnum;
+use BernardinoCampos\Values\HookStorage;
+use function BernardinoCampos\Values\set_object;
+use function BernardinoCampos\Values\set_objects;
+use function BernardinoCampos\Values\set_value;
+use function BernardinoCampos\Values\set_values;
+use BernardinoCampos\Values\Tests\Model\EmptyObject;
+use BernardinoCampos\Values\Tests\Model\SubObject;
 use PHPUnit\Framework\TestCase;
 
 class HookStorageTest extends TestCase

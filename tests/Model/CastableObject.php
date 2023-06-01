@@ -1,8 +1,8 @@
 <?php
-namespace Formapro\Values\Tests\Model;
+namespace BernardinoCampos\Values\Tests\Model;
 
-use Formapro\Values\CastTrait;
-use function Formapro\Values\register_cast_hooks;
+use BernardinoCampos\Values\CastTrait;
+use function BernardinoCampos\Values\register_cast_hooks;
 
 class CastableObject extends EmptyObject
 {

@@ -1,5 +1,5 @@
 <?php
-namespace Formapro\Values;
+namespace BernardinoCampos\Values;
 
 /**
  * @property array $values

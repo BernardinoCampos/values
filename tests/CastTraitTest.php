@@ -1,9 +1,9 @@
 <?php
-namespace Formapro\Values\Tests;
+namespace BernardinoCampos\Values\Tests;
 
-use function Formapro\Values\get_object_changed_values;
-use function Formapro\Values\get_values;
-use Formapro\Values\Tests\Model\CastableObject;
+use function BernardinoCampos\Values\get_object_changed_values;
+use function BernardinoCampos\Values\get_values;
+use BernardinoCampos\Values\Tests\Model\CastableObject;
 use PHPUnit\Framework\TestCase;
 
 class CastTraitTest extends TestCase

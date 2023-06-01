@@ -1,9 +1,9 @@
 <?php
-namespace Formapro\Values\Tests;
+namespace BernardinoCampos\Values\Tests;
 
-use function Formapro\Values\clone_object;
-use function Formapro\Values\set_values;
-use Formapro\Values\Tests\Model\EmptyObject;
+use function BernardinoCampos\Values\clone_object;
+use function BernardinoCampos\Values\set_values;
+use BernardinoCampos\Values\Tests\Model\EmptyObject;
 use PHPUnit\Framework\TestCase;
 
 class ChangedValuesTraitTest extends TestCase

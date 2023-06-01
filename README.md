@@ -1,7 +1,7 @@
 
 <h2 align="center">Supporting Opensource</h2>
 
-`formapro\values` is an MIT-licensed open source project with its ongoing development made possible entirely by the support of community and our customers. If you'd like to join them, please consider:
+`BernardinoCampos\values` is an MIT-licensed open source project with its ongoing development made possible entirely by the support of community and our customers. If you'd like to join them, please consider:
 
 - [Become our client](http://forma-pro.com/)
 - [Become a sponsor](https://www.patreon.com/makasim)
@@ -21,8 +21,8 @@ The array is easy to fetch out or set into of the object.
 Could be used:
 
 * interacting with [MongoDB](https://www.mongodb.com/) - [makasim/yadm](https://github.com/makasim/yadm).
-* describing API clients - [formapro/telegram-bot](https://github.com/formapro/telegram-bot-php).
-* describing domain models - [formapro/pvm](https://github.com/formapro/pvm)
+* describing API clients - [BernardinoCampos/telegram-bot](https://github.com/BernardinoCampos/telegram-bot-php).
+* describing domain models - [BernardinoCampos/pvm](https://github.com/BernardinoCampos/pvm)
 * describing MQ messages.
 
 **An object** provide us with a contract which is easy to rely on. We can type hint a class, use auto complete on its methods.
@@ -43,9 +43,9 @@ Here's the [real response](https://api.github.com/repos/symfony/symfony), we wil
 <?php
 namespace Acme;
 
-use Formapro\Values\ValuesTrait;
-use Formapro\Values\ObjectsTrait;
-use function Formapro\Values\set_values;
+use BernardinoCampos\Values\ValuesTrait;
+use BernardinoCampos\Values\ObjectsTrait;
+use function BernardinoCampos\Values\set_values;
 
 class Repo
 {
@@ -109,8 +109,8 @@ Lets create Gist and GistFile object. Populate them with data and get it as arra
 <?php
 namespace  Acme;
 
-use Formapro\Values\ObjectsTrait;
-use Formapro\Values\ValuesTrait;
+use BernardinoCampos\Values\ObjectsTrait;
+use BernardinoCampos\Values\ValuesTrait;
 
 class Gist
 {

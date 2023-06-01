@@ -1,7 +1,7 @@
 <?php
-namespace Formapro\Values\Tests\Model\Github;
+namespace BernardinoCampos\Values\Tests\Model\Github;
 
-use Formapro\Values\ValuesTrait;
+use BernardinoCampos\Values\ValuesTrait;
 
 class Owner
 {

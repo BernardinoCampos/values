@@ -1,13 +1,13 @@
 <?php
-namespace Formapro\Values\Tests;
+namespace BernardinoCampos\Values\Tests;
 
-use function Formapro\Values\get_values;
-use function Formapro\Values\set_values;
-use Formapro\Values\Tests\Model\Github\Gist;
-use Formapro\Values\Tests\Model\Github\GistFile;
-use Formapro\Values\Tests\Model\Github\Owner;
-use Formapro\Values\Tests\Model\Github\RepositoryV1;
-use Formapro\Values\Tests\Model\Github\RepositoryV2;
+use function BernardinoCampos\Values\get_values;
+use function BernardinoCampos\Values\set_values;
+use BernardinoCampos\Values\Tests\Model\Github\Gist;
+use BernardinoCampos\Values\Tests\Model\Github\GistFile;
+use BernardinoCampos\Values\Tests\Model\Github\Owner;
+use BernardinoCampos\Values\Tests\Model\Github\RepositoryV1;
+use BernardinoCampos\Values\Tests\Model\Github\RepositoryV2;
 use PHPUnit\Framework\TestCase;
 
 class GithubTest extends TestCase

@@ -1,16 +1,16 @@
 <?php
-namespace Formapro\Values\Tests;
+namespace BernardinoCampos\Values\Tests;
 
-use function Formapro\Values\add_object;
-use function Formapro\Values\get_object;
-use function Formapro\Values\get_objects;
-use Formapro\Values\HookStorage;
-use function Formapro\Values\register_propagate_root_hooks;
-use function Formapro\Values\set_object;
-use function Formapro\Values\set_objects;
-use function Formapro\Values\set_values;
-use Formapro\Values\Tests\Model\EmptyObject;
-use Formapro\Values\Tests\Model\SubObject;
+use function BernardinoCampos\Values\add_object;
+use function BernardinoCampos\Values\get_object;
+use function BernardinoCampos\Values\get_objects;
+use BernardinoCampos\Values\HookStorage;
+use function BernardinoCampos\Values\register_propagate_root_hooks;
+use function BernardinoCampos\Values\set_object;
+use function BernardinoCampos\Values\set_objects;
+use function BernardinoCampos\Values\set_values;
+use BernardinoCampos\Values\Tests\Model\EmptyObject;
+use BernardinoCampos\Values\Tests\Model\SubObject;
 use PHPUnit\Framework\TestCase;
 
 class PropagateRootObjectTest extends TestCase

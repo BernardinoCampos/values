@@ -1,8 +1,8 @@
 <?php
-namespace Formapro\Values\Tests\Model\Github;
+namespace BernardinoCampos\Values\Tests\Model\Github;
 
-use Formapro\Values\ObjectsTrait;
-use Formapro\Values\ValuesTrait;
+use BernardinoCampos\Values\ObjectsTrait;
+use BernardinoCampos\Values\ValuesTrait;
 
 class RepositoryV2
 {

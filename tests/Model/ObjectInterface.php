@@ -1,5 +1,5 @@
 <?php
-namespace Formapro\Values\Tests\Model;
+namespace BernardinoCampos\Values\Tests\Model;
 
 interface ObjectInterface
 {

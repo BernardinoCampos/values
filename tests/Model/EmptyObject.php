@@ -1,9 +1,9 @@
 <?php
-namespace Formapro\Values\Tests\Model;
+namespace BernardinoCampos\Values\Tests\Model;
 
-use Formapro\Values\ChangedValuesTrait;
-use Formapro\Values\ObjectsTrait;
-use Formapro\Values\ValuesTrait;
+use BernardinoCampos\Values\ChangedValuesTrait;
+use BernardinoCampos\Values\ObjectsTrait;
+use BernardinoCampos\Values\ValuesTrait;
 
 class EmptyObject
 {

@@ -1,20 +1,20 @@
 <?php
-namespace Formapro\Values\Tests;
+namespace BernardinoCampos\Values\Tests;
 
-use function Formapro\Values\clone_object;
-use function Formapro\Values\get_object;
-use function Formapro\Values\get_objects;
-use function Formapro\Values\get_values;
-use function Formapro\Values\get_object_changed_values;
-use Formapro\Values\HooksEnum;
-use Formapro\Values\HookStorage;
-use function Formapro\Values\register_hook;
-use function Formapro\Values\register_object_hooks;
-use function Formapro\Values\set_values;
-use Formapro\Values\Tests\Model\EmptyObject;
-use Formapro\Values\Tests\Model\ObjectInterface;
-use Formapro\Values\Tests\Model\OtherSubObject;
-use Formapro\Values\Tests\Model\SubObject;
+use function BernardinoCampos\Values\clone_object;
+use function BernardinoCampos\Values\get_object;
+use function BernardinoCampos\Values\get_objects;
+use function BernardinoCampos\Values\get_values;
+use function BernardinoCampos\Values\get_object_changed_values;
+use BernardinoCampos\Values\HooksEnum;
+use BernardinoCampos\Values\HookStorage;
+use function BernardinoCampos\Values\register_hook;
+use function BernardinoCampos\Values\register_object_hooks;
+use function BernardinoCampos\Values\set_values;
+use BernardinoCampos\Values\Tests\Model\EmptyObject;
+use BernardinoCampos\Values\Tests\Model\ObjectInterface;
+use BernardinoCampos\Values\Tests\Model\OtherSubObject;
+use BernardinoCampos\Values\Tests\Model\SubObject;
 use PHPUnit\Framework\TestCase;
 
 class ObjectsTraitTest extends TestCase

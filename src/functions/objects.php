@@ -1,5 +1,5 @@
 <?php
-namespace Formapro\Values;
+namespace BernardinoCampos\Values;
 
 function register_object_hooks() {
     $resetObjectsHook = function($object, $key) {
