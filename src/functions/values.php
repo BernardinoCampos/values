@@ -204,7 +204,7 @@ function build_object_ref($classOrCallable = null, array &$values=[], $context =
  *
  * @return object
  */
-function build_object($classOrCallable = null, array $values)
+function build_object($classOrCallable = null, array $values=[])
 {
     return build_object_ref($classOrCallable, $values);
 }
