@@ -1,5 +1,5 @@
 {
-  "name": "formapro/values",
+  "name": "bernardinocampos/values",
   "type": "library",
   "description": "Alter ego objects. Highly efficient way of building models, api clients and so on",
 
@@ -19,13 +19,6 @@
   },
   "config": {
     "bin-dir": "bin"
-  },
-  "autoload": {
-    "psr-4": { "Formapro\\Values\\": "src" },
-    "files": ["src/functions_include.php"]
-  },
-  "autoload-dev": {
-    "psr-4": { "Formapro\\Values\\Tests\\": "tests" }
   },
   "extra": {
     "branch-alias": {
